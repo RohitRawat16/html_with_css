@@ -1,0 +1,46 @@
+/* isme humneborder lena sheekha iska syntx hai ye necche wala  */
+h1 {
+    border: 3px dotted green;
+}
+
+/* button ko round kese krna hia isme ye btaya hia hai mene aur isme hi
+ mene opacity ka bhi diya hai mtlb kitna visile hoga hoga vo text ya button*/
+button {
+    border: 3px solid black;
+    border-radius: 500px;
+    color: red;
+    background-color: blue;
+    opacity: 0.5;
+    margin: 5%;
+}
+
+/* isme mene padding ka shekkha mtlb jo text border se chupka ata
+tha ab vo us border se dur ata hai  */
+h2 {
+    color: blueviolet;
+    background-color: aquamarine;
+    border: 3px solid black;
+    padding: 20px;
+    margin: 10%;
+}
+
+/* isme mene margin ka sheekha isme ye hota hia ki vo bhi likha 
+hia uske baad kitne space deni hai  */
+h1 {
+    margin: 10% 20% 10% 10%;
+}
+
+/* height aur weight leke ek box banana */
+div {
+    height: 20px;
+    width: 100px;
+    background-color: lightblue;
+    padding: 20px;
+    border: 3px solid blue;
+    margin: 30px;
+}
+
+button {
+    display: inline-block;
+    width: 50px;
+}

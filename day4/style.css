@@ -1,0 +1,31 @@
+.hello{
+    position: sticky;
+    top: 10px;
+width: 90px;
+    color: #00007B;
+    background-color: gray;
+padding: 50 px;
+
+}
+.parent{
+position: relative;
+height: 300px;
+width: 200px;
+background-color: rgba(233, 0, 0, 0.932);
+}
+.child{
+position: absolute;
+top:10px;
+right:10px;
+color: burlywood;
+}
+button{
+position: fixed;
+bottom:200px;
+right:100px;
+background-color: blueviolet;
+}
+header{
+    position: sticky;
+    top: 0;
+}

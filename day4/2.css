@@ -1,0 +1,52 @@
+/* hover isliye use hota hia jisse jb hum us text ke upr apna mouse le jaenege tho vo jo color hune diya hoga vo dhikega */
+/* transiton isliye use krte hai jb hume transion deni ho aur isme hum time bhi de skte hai ki kitne time ki transition chiye */
+/* transform tb use krte hai jb chije ko chota bada dhikana ho */
+/* transition or translate dono ko ek sth bhi use kr skte hai trasition se time bataenge ki kitna time tk chlna chiye vo aur 
+transform se ki kitna bada hoga vo  */
+/* transform: translatex(10px) ye isliye use hola hai agr tujhe us chije ko left left toop bottom le jani ho tho  */
+/* transform: rotate(30deg) isko hm tb use krte hia agr hume kisi chije ko rotate krvana ho tho*/
+button:hover{
+color: black;
+background-color: aqua;
+transition: 1s;
+}
+.hello{
+align-items: center;
+    width: 100px;
+    height: 100px;
+    color: blue;
+    background-color: gray;
+}
+.hello:hover{
+    transition: 1s;
+    color: aliceblue;
+    background-color: black;
+    transform: scale(1.90);
+
+}
+.box{
+    height: 100px;
+    width: 100px;
+    color: brown;
+background-color: black;
+}
+.box:hover{
+    color: aqua;
+    background-color: brown;
+    transition: 0.5s;
+    transform: scale(1.0);
+    transform: translatex(10px);
+    transform: rotate(30deg);
+}
+.food{
+    height: auto;
+    width: 200;
+    color: chartreuse;
+    background-color: chocolate;
+}
+.food:hover{
+    color: olivedrab;
+    background-color: dimgrey;
+    transition: 1s;
+    box-shadow: 0 10px 20px palevioletred;
+}

@@ -1,0 +1,36 @@
+/* Card:
+width: 250px
+padding: 20px
+border-radius: 10px
+box-shadow
+
+Hover:
+translateY(-10px)
+transition: 0.3s
+
+Button:
+background black
+color white
+
+Button hover:
+background blue
+scale(1.05) */
+.java{
+border: 1px dotted;
+width: 250px;
+padding: 20px;
+border-radius: 10px;
+}
+.java:hover{
+transform: translateY(-10px);
+transition: 0.5s;
+box-shadow: 0 5px 10px, pink;
+}
+button{
+    background-color: black;
+    color: white;
+}
+button :hover{
+    background-color: blue;
+transform: scale(1.05);
+}

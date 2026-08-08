@@ -1,0 +1,27 @@
+.container {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+
+}
+
+.body {
+
+    border: 2px solid black;
+
+    padding: 20 px;
+
+    text-align: center;
+
+    background-color: blue;
+
+    border-radius: 10px;
+
+    transition: 0.3s;
+}
+.body:hover{
+transform:translateY(-10px);
+}

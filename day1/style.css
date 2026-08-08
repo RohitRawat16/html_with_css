@@ -1,0 +1,37 @@
+h1{
+
+color:red;
+
+}
+p{
+    color: violet;
+}
+h4{
+    color: chartreuse;
+}
+/* button simple button ko color kne ke liye  */
+button{
+    color: pink;
+}
+/* #ye use krte hai jb id dete hai mtlb maan h1 heading ki 3 4 heading hai aur tujhe
+ bs ek ko hi color krna hai */
+#hello{
+    color: aqua;
+}
+/* .ye hoti hai class selector isme mtlb maaang le 3 4 heading hai but sbke tag alg alg
+ hai aur sbko ek hi color dena hai tho tb use hota hai ye */
+ .orange{
+    color: pink
+ }
+/* *isse jo hai sb kuch same color ka ho jaega mtlb pura page  */
+*{
+    color: cadetblue;
+}
+/* ye hai group selector isem jo bhi 1 ya 2 tag color krvane hai tho direct tag ka nameaur comma laga 
+ke ese krdo bsss... */
+h1,p{
+    columns: red;
+}
+body{
+    background-image: url("image.jpg");
+}

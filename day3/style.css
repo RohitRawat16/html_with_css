@@ -1,0 +1,26 @@
+/* flexye use hota hai jb jo bhi div hai usko inline mei lana ho tho kyuki
+ div jo hai new line mei chala jata hia  */
+ /* justify content isliye use ho rha hia kyuki jo bhi text hai agr use center left ya right
+  lana ho tho  */
+  /* gap isliye hota hia taki j bhi item hai unke beech mei space hum manually de sake  */
+/* space-between  Pehla left    Last right     Beech wala center. */
+/* space-around     Sabke aas-paas equal space. */
+/* space-evenly    Sabke beech aur sides me almost equal spacing */
+/* padding content aur border ke beech ki space */
+/* margin border aur bhr ke elements ke beech ki space */
+.box
+{
+    display:flex;
+
+justify-content:center;
+
+gap:30px;
+
+background:black;
+
+padding:20px;
+
+margin-left: 20px;
+
+color:white;
+}

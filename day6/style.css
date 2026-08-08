@@ -1,0 +1,12 @@
+/* media kyu hota hai mdia isliye use hot hai kyuki agr jb hum apne
+site ko mobile mei kholeng tho vo adha screen cut jaega isliye 
+use krte hai taki vo dono mei shi se dhike laptop mie bhi aur mobile 
+mei bhi */
+.navbar{
+flex: center;
+justify-content: center;
+padding: 10px;
+margin: 10px;
+background-color: black;
+color: white;
+}
