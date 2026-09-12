@@ -3,10 +3,17 @@ site ko mobile mei kholeng tho vo adha screen cut jaega isliye
 use krte hai taki vo dono mei shi se dhike laptop mie bhi aur mobile 
 mei bhi */
 .navbar{
-flex: center;
-justify-content: center;
-padding: 10px;
-margin: 10px;
 background-color: black;
 color: white;
+display: flex;
+gap: 10px;
+padding: 10px;
+justify-content: center;
+}
+@media (max-width:1000px) {
+    .navbar{
+        flex-direction: row;
+        align-content: center;
+    }
+    
 }
